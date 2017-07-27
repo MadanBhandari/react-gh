@@ -24,8 +24,8 @@ export default function App() {
       </nav>
 
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/example" component={ExampleComponent} />
+        <Route exact path="/react-gh" component={Home} />
+        <Route path="/react-gh/example" component={ExampleComponent} />
         <Route component={PageNotFound} />
       </Switch>
 
