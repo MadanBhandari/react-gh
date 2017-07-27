@@ -17,7 +17,7 @@ export default function ExampleComponent() {
   return (
     <Switch>
       <Route
-        exact path="/example/two-deep"
+        exact path="/react-gh/example/two-deep"
         render={({ location }) => (
           <div>
             <ExamplePageText />
@@ -26,7 +26,7 @@ export default function ExampleComponent() {
         )}
       />
       <Route
-        exact path="/example"
+        exact path="/react-gh/example"
         render={() => (
           <div>
             <ExamplePageText />
@@ -34,7 +34,7 @@ export default function ExampleComponent() {
               <Interactive
                 as={Link}
                 {...s.link}
-                to="/example/two-deep?field1=foo&field2=bar#boom!"
+                to="/react-gh/example/two-deep?field1=foo&field2=bar#boom!"
               >Example two deep with query and hash</Interactive>
             </div>
           </div>
